@@ -1,17 +1,59 @@
-# weather_app
+# Weather_app
 
-A new Flutter project.
+Proyecto flutter para consultar el clima de cualquier parte del mundo buscando por nombre de ciudad o por coordenada
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+### Aplicación compilada en el apartado releases
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Comenzando 🚀
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Weather-App
+- Descargar y descomprimir el proyecto
+- Descargar archivo apk del apardado releases
+
+### Pre-requisitos 📋
+
+_Necesario_
+
+```
+- Flutter instalado
+- Clave Google Cloud Platform
+- Clave de OpenWeather
+```
+
+### Instalación 🔧
+
+_Pasos para correr proyecto_
+
+_1. Ve a ./andoid/app/src/main/res/values/strings.xml_
+
+```
+- En API_KEY escribe tu clave de Google cloud platform ej: <string name="API_KEY">AizGp89....</string>
+```
+
+_1.2. Ve a ./lib/constants.dart_
+
+```
+- En ApiKey escribe tu clave de OpenWeather ej: const ApiKey = "e12e44far...";
+```
+
+## Despliegue 📦
+
+_Crea las Aplicaciónes en modo release con el comando "flutter build apk" o conectando tu celular al ordenador con "flutter run --release"_
+
+## Construido con 🛠️
+
+_Para este proyecto se utilizó_
+
+* [Flutter](https://flutter.dev/)
+* [OpenWeather](https://openweathermap.org/api/)
+
+## Autores ✒️
+
+_Mencion a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+
+* **Alonso Alvarez** - *Codificacion y diseños* - [AlonsoAlvarez](https://github.com/AlonsoAlvarez)
+
+---
+
+⌨️ con ❤️ por [AlonsoAlvarez](https://github.com/AlonsoAlvarez) 😊# Weather_app
