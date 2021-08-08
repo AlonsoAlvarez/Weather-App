@@ -2,9 +2,7 @@
 
 Proyecto flutter para consultar el clima de cualquier parte del mundo buscando por nombre de ciudad o por coordenada
 
-
-### Aplicación compilada en el apartado releases
-
+[![Watch the video](preview_weather_app.png)](https://www.youtube.com/watch?v=VRmnae441b4)
 
 ## Comenzando 🚀
 
